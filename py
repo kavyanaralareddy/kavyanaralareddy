@@ -1,10 +1,52 @@
-- 👋 Hi, I’m @kavyanaralareddy
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+import random
 
-<!---
-kavyanaralareddy/kavyanaralareddy is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
+x = "y"
+
+while x == "y":
+	
+	# Generates a random number
+	# between 1 and 6 (including
+	# both 1 and 6)
+	no = random.randint(1,6)
+	
+	if no == 1:
+		print("[-----]")
+		print("[	 ]")
+		print("[ 0 ]")
+		print("[	 ]")
+		print("[-----]")
+	if no == 2:
+		print("[-----]")
+		print("[ 0 ]")
+		print("[	 ]")
+		print("[ 0 ]")
+		print("[-----]")
+	if no == 3:
+		print("[-----]")
+		print("[	 ]")
+		print("[0 0 0]")
+		print("[	 ]")
+		print("[-----]")
+	if no == 4:
+		print("[-----]")
+		print("[0 0]")
+		print("[	 ]")
+		print("[0 0]")
+		print("[-----]")
+	if no == 5:
+
+		print("[-----]")
+		print("[0 0]")
+		print("[ 0 ]")
+		print("[0 0]")
+		print("[-----]")
+	if no == 6:
+		print("[-----]")
+		print("[0 0 0]")
+		print("[	 ]")
+		print("[0 0 0]")
+		print("[-----]")
+		
+	x=input("press y to roll again and n to exit:")
+	print("\n")
